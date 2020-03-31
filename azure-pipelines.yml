@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'AgentPool'
+  name: 'MyAgentPool'
   demands:
     - npm
 
